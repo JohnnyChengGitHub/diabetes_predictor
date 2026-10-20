@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-This project explores the application of machine learning to predict diabetes risk using health and lifestyle indicators from the CDC's Behavioral Risk Factor Surveillance System (BRFSS).
+This project explores the application of machine learning to predict diabetes risk using health and lifestyle indicators from the CDC's Behavioral Risk Factor Surveillance System.
 
 The goal is to develop and compare multiple classification models to identify patterns associated with diabetes and evaluate their predictive performance.
 
@@ -76,9 +76,6 @@ Three supervised classification algorithms were implemented and evaluated.
 Models are evaluated using standard classification metrics:
 
 - **Accuracy:** Percentage of correctly classified observations.
-- **Precision:** Proportion of predicted positive cases that are actually positive.
-- **Recall:** Proportion of actual positive cases correctly identified.
-- **F1-score:** Harmonic mean of precision and recall.
 - **Confusion Matrix:** Visualization of true positives, true negatives, false positives, and false negatives.
 
 Confusion matrix visualizations are automatically generated and saved in the `visualizations/` directory.
