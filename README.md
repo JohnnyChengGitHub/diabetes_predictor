@@ -65,6 +65,7 @@ Three supervised classification algorithms were implemented and evaluated.
 
 - Uses an ensemble of decision trees to capture complex relationships.
 - Accounts for nonlinear patterns and interactions between predictors.
+- Random Forest PKL file is excluded due to size but is generated when training pipeline runs
 
 ### Support Vector Machine (SVM)
 
@@ -85,7 +86,7 @@ Confusion matrix visualizations are automatically generated and saved in the `vi
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/diabetes_predictor.git
+git clone https://github.com/JohnnyChengGitHub/diabetes_predictor.git
 cd diabetes_predictor
 ```
 
@@ -136,20 +137,25 @@ diabetes_binary_5050split_health_indicators_BRFSS2015.csv
 From the project's root directory, execute:
 
 ```bash
-python src/main.py
+python -m src.main
 ```
 
 The project runs the implemented classification workflow using the CDC diabetes dataset.
 
 ### 2. Review Model Performance
 
-Review the model evaluation results, including accuracy, precision, recall, and F1-score, as reported by the program.
+Review the test accuracy results printed in the terminal for Logistic Regression, Random Forest, and Support Vector Machine (SVM).
+
+### 3. View Confusion Matrices
+
+Confusion matrices are automatically generated and saved in the `visualizations/` directory for each model.
 
 ### 3. View Confusion Matrices
 
 Generated confusion matrices are saved in the `visualizations/` directory.
 
-These visualizations provide a breakdown of each model's classification predictions and errors.
+These visualizations provide a breakdown of each model's classification predictions and errors. The matrices are automatically generated and saved in the visualizations directory for each model.
+
 
 ## Project Structure
 
