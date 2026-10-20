@@ -1,0 +1,12 @@
+# Virtual environment
+.venv/
+
+# Python cache
+__pycache__/
+#.pyc
+
+# VS Code local settings
+.vscode/
+
+# Exclude oversized trained model
+models/random_forest_model.pkl
